@@ -1,0 +1,23 @@
+public class EjemploArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//Ver y agregar diferentes tipos de animales
+		
+		ArrayList<String> Animales = new ArrayList<String>();
+		
+		System.out.println("Número de animales por ahora: "+Animales.size());
+		
+		Animales.add("Pájaro");
+		Animales.add("León");
+		Animales.add("Rinoceronte");
+		
+		System.out.println("Número de animales despues del add: "+Animales.size());
+		
+		System.out.println("Animal que está en la posicion 3 es: "+Animales.get(2));
+		
+		
+	}
+
+}
